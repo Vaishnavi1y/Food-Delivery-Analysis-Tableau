@@ -166,28 +166,6 @@ The dashboard performed successfully without errors during testing.
 
 ---
 
-# 🚀 How to Run the Web Application
-
-## Install Flask
-
-```bash
-pip install -r requirements.txt
-```
-
-Run the application:
-
-```bash
-python app.py
-```
-
-Open your browser:
-
-```
-http://127.0.0.1:5000
-```
-
----
-
 # 📈 Key Business Insights
 
 - Customer ordering behaviour varies across meal types.
