@@ -101,11 +101,31 @@ The project has been successfully published on Tableau Public.
 
 [**Click here to open the Tableau Public Dashboard**](https://public.tableau.com/app/profile/vaishnavi.yandamuri/viz/Food_Delivery_Analysis/FoodOrderingBehavior?publish=yes)
 
-# 🌍 Web Application
+# 🌍 Web Integration
 
-🔗 **Launch the Web Application**
+The Tableau dashboard has been integrated into a Flask web application, allowing users to access the interactive dashboard through a web browser.
 
-[Click here to open the Food Delivery Analysis Web Application](YOUR_WEB_APP_URL)
+## How to Run
+
+Install the required dependency:
+
+```bash
+pip install -r requirements.txt
+```
+
+Run the Flask application:
+
+```bash
+python app.py
+```
+
+After running the application, Flask will generate a local URL in the terminal, for example:
+
+```text
+http://127.0.0.1:5000
+```
+
+Open the generated URL in your web browser to access the Food Delivery Analysis dashboard.
 
 ### Technologies Used
 
